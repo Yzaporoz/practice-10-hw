@@ -1,5 +1,11 @@
 {
-  "dependencies": {
+  "name": "nodejs-test",
+  "private": true,
+  "scripts": {
+    "serve-cli": "Live-server --port=3000 --host=localhost",
+    "serve-node": "node server.js"
+  },
+  "devDependencies": {
     "live-server": "^1.1.0"
   }
 }
